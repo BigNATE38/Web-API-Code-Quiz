@@ -1,1 +1,61 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Coding-Quiz-Challenge</title>
+        <meta charset="UTF-8" />
+    </head>
+    
+    <body>
+        <header>
+            <h3 id="high-score">View High Scores</h3>
+            <h3>Time: <span id="the-time"></span></h3>
+        </header> 
+            
+        <section class="show" id="start-prompt">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Answer the following code-related questions within the time limit. Remember, incorrect answers will penalize your score/time by ten seconds. Good luck!</p>
+            <button id="game-start" class="btn-start">Start Quiz</button>
+        </section>
+
+        <section class="hide" id="big-question-time">
+            <div id="the-question"></div>
+            <div id="buttons-main" class="button-grid" >
+            </div>
+        </section>
+
+        <section class="hide" id="the-big-end">
+            <div class="fun-score">
+                <div id="big-score">
+
+                </div>
+                <form class="initials" id="score-form">
+                    <p>Enter Name:
+                        <input type="text" id="initials" name="initials" />
+                        <button id="sub-button" type="submit">Submit</button>
+                    </p>
+                </form>
+            </div>
+        </section>
+
+        <section class="hide" id="big-score-container">
+            <div class="high-score-container">
+                <h1 id="high-score-font">High Scores</h1>
+                <ol id="the-highest-score-list"></ol>
+            </div>
+                <div class="last-buttons">
+                    <button class="btn-time" id="back-button">Go Back</button>
+                </div>
+                <div class="last-buttons">
+                    <button class="btn-time" id="clear-score-btn">Clear Scores</button>
+                </div>
+        </section>
+        
+
+    
+
+        <script src="assets/js/script.js"></script>   
+    </body>
+
+</html>
