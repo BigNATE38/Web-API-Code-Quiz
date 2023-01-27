@@ -19,5 +19,5 @@ Credit goes to the staff for providing us with this complex challenge that helpe
 N/A
 ## Deployment Link 
 #
-(https://bignate38.github.io/Password-Challenge/)
+(https://bignate38.github.io/Web-API-Code-Quiz/)
 ![SiteImage](assets/images/ScreenShotQuiz.png)
